@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="v8x-lo-Oa3" customClass="TopMainTableViewCell" customModule="Test_5_13" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="v8x-lo-Oa3" id="NRU-9U-96p">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pip-mZ-HYo">
+                        <rect key="frame" x="16" y="0.0" width="398" height="50.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="sGW-pj-Xhd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Pip-mZ-HYo" secondAttribute="bottom" id="MQP-RM-snq"/>
+                    <constraint firstItem="Pip-mZ-HYo" firstAttribute="leading" secondItem="NRU-9U-96p" secondAttribute="leading" constant="16" id="V7D-xC-DQ2"/>
+                    <constraint firstItem="Pip-mZ-HYo" firstAttribute="top" secondItem="NRU-9U-96p" secondAttribute="top" id="WZp-rR-ia1"/>
+                    <constraint firstAttribute="trailing" secondItem="Pip-mZ-HYo" secondAttribute="trailing" id="vkr-Vd-EtA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.97124556809999996" green="1" blue="0.4047800292" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <connections>
+                <outlet property="label" destination="Pip-mZ-HYo" id="EbO-RJ-gbR"/>
+            </connections>
+            <point key="canvasLocation" x="178" y="-472"/>
+        </tableViewCell>
+    </objects>
+</document>
